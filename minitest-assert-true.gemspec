@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'minitest/assert/true/version'
+require 'minitest/assert_true/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "minitest-assert-true"
-  spec.version       = Minitest::Assert::True::VERSION
+  spec.version       = Minitest::AssertTrue::VERSION
   spec.authors       = ["Jack Thorne"]
   spec.email         = ["jack@fastly.com"]
   spec.summary       = %q{Extention to minitest to add assert_true assert_false}
