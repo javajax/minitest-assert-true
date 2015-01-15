@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Minitest::Assert::True::VERSION
   spec.authors       = ["Jack Thorne"]
   spec.email         = ["jack@fastly.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Extention to minitest to add assert_true assert_false}
+  spec.description   = %q{Extention to minitest to add assert_true assert_false}
   spec.homepage      = ""
   spec.license       = "MIT"
 
