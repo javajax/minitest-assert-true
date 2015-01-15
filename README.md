@@ -1,13 +1,11 @@
-# Minitest::Assert::True
-
-TODO: Write a gem description
+# Minitest::AssertTrue
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'minitest-assert-true'
+gem 'minitest/assert_true'
 ```
 
 And then execute:
@@ -20,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+require 'minitest/assert_true'
+assert_true true, "this should work"
 
 ## Contributing
 
